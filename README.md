@@ -1,4 +1,4 @@
-# KS BootShop - Shopify Theme
+# David Shopify Theme
 Shopify Starter Theme powered by Bootstrap framework (v5), developed respecting [Shopify themes requirements](https://shopify.dev/tutorials/review-theme-store-requirements), accessibility best practices, and of course our own experience in developing themes for more than 15 years now.
 
 Our goal is to make this project the most completed, robust, and of course the most awesome Shopify theme for the Bootstrap framework.
@@ -31,8 +31,7 @@ Our goal is to make this project the most completed, robust, and of course the m
 * Richtext
 * Separator
 
-## Demo 
-https://ks-bootshop.myshopify.com
+
 
 
 
