@@ -3,10 +3,6 @@ Shopify Starter Theme powered by Bootstrap framework (v5), developed respecting 
 
 Our goal is to make this project the most completed, robust, and of course the most awesome Shopify theme for the Bootstrap framework.
 
-## Video introduction
-Click on the screenshot below to play the video on YouTube.
-
-[<img src="https://img.youtube.com/vi/_G9IRSFAI_A/maxresdefault.jpg" width="50%">](https://youtu.be/_G9IRSFAI_A)
 
 ## Highlighted features:
 * Powered by [Bootstrap framework](https://getbootstrap.com/) (v5)
@@ -39,42 +35,17 @@ Click on the screenshot below to play the video on YouTube.
 https://ks-bootshop.myshopify.com
 
 
-## Download 
-Go to [Releases](https://github.com/kondatheme/ks-bootshop/releases/) and get the latest v3.x.x version which is ready for Bootstrap v5.
-
-## Premium Shopify Themes 
-In case you are interested in our Premium Shopify Themes with advanced features to increase your store conversion rates (CVR) and average order value (AOV), please visit our website
-https://www.kondatheme.com
 
 ## Installation
 **Note:** Please, make sure you are familiar with [Theme kit](https://shopify.github.io/themekit/), and official documentation before proceeding. We are assuming that at this point you have already installed the Theme Kit.
 
-### 1- Clone this repository (download theme files)
-Create a new folder on your computer, `cd` to it, and run the following command to copy all theme files from our GitHub repository master branch. Note: Include the dot at the end of the command to clone into your current directory.
-
-`git clone https://github.com/kondatheme/ks-bootshop .`
-
-### 2- Create and configure theme with Theme Kit
-Run the following command to create a new theme in your Shopify store along with our theme files that you have just downloaded:
-
-`theme new --password=[your-api-password] --store=[your-store.myshopify.com] --name="ks-bootshop-v3"`
-
-Optional: Run this command to open your Shopify store with our theme in preview mode.
+store with our theme in preview mode.
 
 `theme open`
 
 ## Customization
 Please don't directly modify theme files as you will lose any changes when you upgrade our theme. The recommended way to handle this is by creating a copy of our theme and then modifying it. Please follow this [official tutorial](https://help.shopify.com/en/manual/online-store/legacy/using-themes/managing-themes/duplicating-themes) to learn more. 
 
-Also, we have provided 2 blank files (`custom.css` and `custom.js`) which are inside the `assets` folder. It is recommended that you use these 2 files to add your styles and scripts since they will not be changed during the upgrade.
-
-### Modifying styles (SCSS)
-We have provided only a few additional styles for this Shopify theme, and all of those are done via plain CSS in the `assets` folder. Our goal for this theme is to provide a solid foundation, completely backed by the Bootstrap framework, so that you can easily get it going with the framework you already know and love. 
-
-All bootstrap-related styles and variables are in the `src/bootstrap.scss` file. Assuming that you already know how to work with [Bootstrap variables](https://getbootstrap.com/docs/5.1/customize/overview/), feel free to modify this file, especially the color variables at the top of the file.
-
-After that, install all the needed npm packages that are already defined in the `packages.json` file
-`npm install`
 
 Now, you can compile the `bootstrap.scss` file that you have just modified using the following command:
 `npm run bs-css` or `npm run watch` (to continuously watch for changes)
@@ -82,8 +53,3 @@ Now, you can compile the `bootstrap.scss` file that you have just modified using
 To deploy your changes on your Shopify store run the following Theme Kit command:
 `theme deploy` or: `theme watch`
 
-## Support
-Please submit a [new issue](https://github.com/kondatheme/ks-bootshop/issues/new) in case you want to submit a bug or feature request. Additionally, you may visit our [website](https://www.kondatheme.com/) for further help.
-
-## Copyright and license
-Copyright 2022 [kondatheme.com](https://www.kondatheme.com). Code released under the [MIT License](https://github.com/kondatheme/ks-bootshop/blob/master/LICENSE).
