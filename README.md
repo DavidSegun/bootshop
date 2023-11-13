@@ -42,10 +42,6 @@ store with our theme in preview mode.
 
 `theme open`
 
-## Customization
-Please don't directly modify theme files as you will lose any changes when you upgrade our theme. The recommended way to handle this is by creating a copy of our theme and then modifying it. Please follow this [official tutorial](https://help.shopify.com/en/manual/online-store/legacy/using-themes/managing-themes/duplicating-themes) to learn more. 
-
-
 Now, you can compile the `bootstrap.scss` file that you have just modified using the following command:
 `npm run bs-css` or `npm run watch` (to continuously watch for changes)
 
